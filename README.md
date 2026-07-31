@@ -1,7 +1,8 @@
 # Browsing Map
 
 A full-stack application that captures browser activity through a Chrome Extension and visualizes browsing locations on an interactive world map.
-![Uploading image.png…]()
+<img width="1449" height="773" alt="Screenshot 2026-07-31 at 6 57 08 AM" src="https://github.com/user-attachments/assets/f0d75cd7-436d-40f8-9f42-f74141f241b2" />
+
 
 ## Tech Stack
 - React
