@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Browsing Map",
+  "version": "1.0.0",
+  "description": "url capture and plot on Browsing Map dashboard.",
+  "permissions": ["tabs", "webNavigation"],
+  "host_permissions": ["http://localhost:3001/*", "https://*/*", "http://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Browsing Map",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
+  }
+}

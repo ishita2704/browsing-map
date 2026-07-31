@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browsing Map</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-text">
+        <h1>Browsing Map</h1>
+        <p>Capturing visits in the background</p>
+      </div>
+      <span id="status-dot" class="status-dot" title="Checking connection…"></span>
+    </header>
+
+    <section class="stats">
+      <div class="stat-card">
+        <span class="stat-value" id="visit-count">—</span>
+        <span class="stat-label">Plotted visits</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-value" id="backend-status">—</span>
+        <span class="stat-label">Backend</span>
+      </div>
+    </section>
+
+    <section class="recent">
+      <h2>Recent visits</h2>
+      <ul id="recent-list" class="recent-list">
+        <li class="empty">Loading…</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <button id="open-dashboard" type="button" class="primary-btn">Open Dashboard</button>
+      <button id="refresh-btn" type="button" class="ghost-btn">Refresh</button>
+    </footer>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
